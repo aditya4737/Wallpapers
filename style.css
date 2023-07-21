@@ -1,0 +1,53 @@
+body{
+    background-color: #03001C;
+    padding: 15px;
+    border: 15px solid rgb(17, 5, 46);
+    margin: 0px 0px 0px 0px;
+}
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading2{
+    text-shadow: 2px 2px 4px red;
+}
+h1,p{
+    color: whitesmoke;
+}
+.card-img{
+    height: 155px;
+    width: 288px;
+}
+.card-text{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.heading2{
+    text-align: center;
+}
+.card:hover{
+    background-color: #06003a;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.card{
+    box-shadow: 2px 2px 4px red;
+    border: 0.5px solid white;
+    
+}
+td:hover{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+}
