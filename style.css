@@ -1,53 +1,47 @@
-body{
-    background-color: #03001C;
-    padding: 15px;
-    border: 15px solid rgb(17, 5, 46);
-    margin: 0px 0px 0px 0px;
-}
-.font{
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    width: 100%;
 }
-.heading2{
+.heading2 {
+    text-align: center;
+    border: 2px solid white;
+    background-color: red;
     text-shadow: 2px 2px 4px red;
 }
-h1,p{
-    color: whitesmoke;
-}
-.card-img{
-    height: 155px;
-    width: 288px;
-}
-.card-text{
-    text-align: center;
-    margin: 0px 0px 0px 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.heading2{
-    text-align: center;
-}
-.card:hover{
-    background-color: #06003a;
-}
-table{
-    margin-left: auto;
-    margin-right: auto;
-}
-td{
-    padding: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-}
-.card{
+
+.card {
     box-shadow: 2px 2px 4px red;
     border: 0.5px solid white;
-    
+    transition: background-color 0.3s ease;
 }
-td:hover{
-    position: absolute;
-    margin-left: 15px;
-    margin-top: 15px;
+
+.card:hover {
+    position: relative;
+    background-color: #1a1919;
+    right: 3px;
+    bottom: 3px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    text-align: center;
+    margin: 5px 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100vw;
+    place-items: center;
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
 }
