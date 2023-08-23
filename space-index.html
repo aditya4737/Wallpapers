@@ -4,118 +4,138 @@
 <head>
   <meta charset="UTF-8">
   <title>Wallpapers</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-  <body>
-    <h1 class="heading2">Space</h1>
-    <div class="tbody">
-      <table>
-        <tr>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\astronaut1.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">astronaut-1</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\astronaut2.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">astronaut-2</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\space1.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Space-1</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\space2.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Space-2</p>
-              </div>
-            </div>
-          </td>
-        </tr>
-
-
-        <tr>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\spaceship.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Spaceship</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\spaceshuttel.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Space shuttle</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\spacestation1.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Spacestation</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\planate.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Planate</p>
-              </div>
-            </div>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\saturn.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Saturn</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\nebula1.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Nebula-1</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\nebula2.png" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Nebula-2</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 18rem;">
-              <img src="space-wallpaper\earth.jpg" class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Earth</p>
-              </div>
-            </div>
-          </td>
-        </tr>
-      </table>
+<body>
+  <div class="outer-container">
+    <div class="header">
+      <div class="title">
+        <div class="logo">
+          <img src="WG-logo.png" class="logo-img">
+        </div>
+        <h2 class="title-1"><b>SPACE</b></h2>
+      </div>
+    
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"
+          style="background-color: red; border: 3px black solid; height: 50px;">
+          <img src="menu.png" class="header-img" alt="">
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" style="background-color: red;">
+          <li><a href="#"><b class="menu">ACCOUNT</b></a></li>
+          <li><a href="#"><b class="menu">DOWNLOADS</b></a></li>
+          <li><a href="#"><b class="menu">SETTINGS</b></a></li>
+        </ul>
+      </div>
+      <div class="home header-button home-image">
+        <a href="index.html">
+          <img src="home-icon.png" class="header-img home-image" alt="">
+        </a>
+      </div>
     </div>
-  </body>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/astronaut1.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">astronaut1</p>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/astronaut2.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">astronaut2</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/earth.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">earth</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/nebula1.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">nebula1</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/nebula2.png" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">nebula2</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/planate.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">planet</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/saturn.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">saturn</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/space1.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">space1</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/space2.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">space2</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/spaceship.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">spaceship</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/spaceshuttel.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">spaceshuttel</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="card">
+        <img src="space-wallpaper/spacestation1.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <p class="card-text">spacestation1</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

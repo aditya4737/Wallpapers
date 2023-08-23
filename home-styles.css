@@ -93,10 +93,15 @@ body{
     border-radius: 5px;
 }
 .card:hover{
+    transition-delay: 0.2s;
     position: relative;
     right: 2px;
     bottom: 2px;
 }
 .header-button:hover{
+    transition-delay: 0.2s;
+        position: relative;
+        right: 2px;
+        bottom: 2px;
     background-color: rgb(197, 0, 0);
 }
